@@ -26,7 +26,7 @@ SELECT
 SUBSTRING(released,CHARINDEX('(', released) + 1, CHARINDEX(')', released) - CHARINDEX('(', released) - 1) AS Country_Released
 FROM movies3
 
-Combining all the columns and Creating a new table Movies_Update
+--Combining all the columns and Creating a new table Movies_Update
 SELECT *,
 	SUBSTRING(released,CHARINDEX('(', released) + 1, CHARINDEX(')', released) - CHARINDEX('(', released) - 1) AS Country_Released
 INTO Movies_Update
