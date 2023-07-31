@@ -1,3 +1,22 @@
+
+The Business requirement of the project;
+1. What are the top 3 ratings for movies released in the United States?
+2. What are the Top 10 companies based on the number of movies?
+3. What are the Top 10 companies in the United Kingdom based on movie revenue? (released 
+country)
+4. What are the Top 10 companies in the countries that begin with “I” based on the movie?
+revenue?
+5. What is the average movie time for movies in France and any country that contains Germany?
+(released country)?
+6. As a single analyst, what is the average movie time for movies with titles that contain ‘love’?
+7. Which company has generated the most revenue? How much did they make in 2018?
+8. Which star has been featured in the most movies? What are the top 3 movies in which he or she has acted?
+in?
+9. Which movie genre is most popular in India? What is the average revenue generated for this
+movie genre in India? (country of origin)
+10. How many movies start with a consonant letter?
+
+
 SELECT TOP (1000) [name]
       ,[rating]
       ,[genre]
