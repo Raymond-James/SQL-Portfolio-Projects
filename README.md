@@ -1,6 +1,6 @@
 # SQL Portfolio Projects 
 
-This is my SQL portfolio projects 
+This is my SQL portfolio.
 
-kindly reach out through 
+Please reach out through 
 rayjam93@gmail.com 
