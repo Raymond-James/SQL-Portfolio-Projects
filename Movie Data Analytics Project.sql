@@ -1,4 +1,4 @@
-
+/*
 The Business requirement of the project;
 1. What are the top 3 ratings for movies released in the United States?
 2. What are the Top 10 companies based on the number of movies?
@@ -15,7 +15,7 @@ in?
 9. Which movie genre is most popular in India? What is the average revenue generated for this
 movie genre in India? (country of origin)
 10. How many movies start with a consonant letter?
-
+*/
 
 SELECT TOP (1000) [name]
       ,[rating]
