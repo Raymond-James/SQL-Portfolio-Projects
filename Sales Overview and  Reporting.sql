@@ -13,7 +13,7 @@ The visualisations to this requirement are in the attached links on my profile
 The SQL queries showcases different criteria that were based on to give a report to the Sales Manager*/
 
 
--- Cleansed DIM_Date Table --
+-- Final DIM_Date Table --
 SELECT 
   [DateKey], 
   [FullDateAlternateKey] AS Date, 
@@ -43,7 +43,7 @@ WHERE
 
 
   
--- Cleansed FACT_InternetSales Table --
+-- Final FACT_InternetSales Table --
 SELECT 
   [ProductKey], 
   [OrderDateKey], 
@@ -81,7 +81,7 @@ ORDER BY
 
 
 
--- Cleansed DIM_Products Table --
+-- Final DIM_Products Table --
 SELECT 
   p.[ProductKey], 
   p.[ProductAlternateKey] AS ProductItemCode, 
@@ -131,7 +131,7 @@ order by
 
 
 
--- Cleansed DIM_Customers Table --
+-- Final DIM_Customers Table --
 SELECT 
   c.customerkey AS CustomerKey, 
   --      ,[GeographyKey]
